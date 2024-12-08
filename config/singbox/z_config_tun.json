@@ -49,9 +49,6 @@
     "auto_redirect": true,
     "strict_route": true,    
     "stack": "system",
-    "exclude_interface": [
-      "wg"
-    ],
     "platform": {
       "http_proxy": {
         "enabled": true,
