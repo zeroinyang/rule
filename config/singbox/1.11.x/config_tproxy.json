@@ -95,7 +95,7 @@
      {"rule_set": "geosite-onedrive", "outbound": "🐬 OneDrive"},
      {"rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft"},
      {"rule_set": "geosite-geolocation-!cn", "outbound": "🚀 节点选择"},
-     {"rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
+     {"rule_set": ["geoip-cn", "geosite-cn", "zdirect"], "outbound": "🎯 全球直连"}
    ],
     
    "rule_set": [
@@ -118,7 +118,8 @@
     { "tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs", "download_detour": "🚀 节点选择" },     
     { "tag": "geoip-apple", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs", "download_detour": "🚀 节点选择" },
     { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🚀 节点选择" },
-    { "tag": "geoip-private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs", "download_detour": "🚀 节点选择" }
+    { "tag": "geoip-private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs", "download_detour": "🚀 节点选择" },
+    { "tag": "zdirect", "type": "remote", "format": "source", "url": "https://raw.githubusercontent.com/zeroinyang/rule/refs/heads/master/config/singbox/1.12.x/zdirect.json", "download_detour": "🚀 节点选择" }
   ]
 }
 }
