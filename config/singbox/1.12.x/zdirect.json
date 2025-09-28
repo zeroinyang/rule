@@ -3,12 +3,14 @@
   "rules": [
     {
       "domain": [
-        "www.xbiqugu.la"
+        "www.xbiqugu.la",
+        "www.xbiqugu.com"
       ]
     },
     {
       "domain_suffix": [
-        "xbiqugu.la"
+        "xbiqugu.la",
+        "xbiqugu.com"
       ]
     }
   ]
