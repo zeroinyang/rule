@@ -72,7 +72,7 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
-      {"tag": "zdirect", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zeroinyang/rule/refs/heads/master/config/singbox/1.12.x/zdirect.json", "download_detour": "🎯 全球直连"},      
+      {"tag": "zdirect", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/zeroinyang/rule/refs/heads/master/config/singbox/1.12.x/directlist.json", "download_detour": "🎯 全球直连"},      
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-youtube", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geosite-google", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs", "download_detour": "🎯 全球直连"},
