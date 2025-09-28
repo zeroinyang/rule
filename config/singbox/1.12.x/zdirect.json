@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "www.xbiqugu.la",
         "dl.wechat.com",
         "sgfindershort.wechat.com",
         "sgilinkshort.wechat.com",
@@ -27,7 +28,7 @@
     },
     {
       "domain_suffix": [
-        "*xbiqugu.la",
+        ".xbiqugu.la",
         ".qlogo.cn",
         ".qpic.cn",
         ".servicewechat.com",
