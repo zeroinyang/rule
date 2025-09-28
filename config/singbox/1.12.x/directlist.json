@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "www.xbiqugu.la",
+        "www.xbiqugu.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "xbiqugu.la",
+        "xbiqugu.com"
+      ]
+    }
+  ]
+}
